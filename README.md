@@ -7,10 +7,10 @@ Only the following specifications are required:
 - Damping factor of the resonant modes (xi)
 - The desired real part of the smallest pole of the closed-loop system (s)
 
-Consider the example of a design with h = 3, xi = 0, s = 100. The following output voltage response is obtained for a linear load:
+Consider the example of a design with h = 3, xi = 0, s = 100. The following output voltage response is obtained for linear load:
 <img width="583" height="455" alt="ex_load" src="https://github.com/user-attachments/assets/0a0fd682-867b-4029-8eee-4bec5cfac51d" />
 
-The following output voltage response is obtained for a non-linear load:
+The following output voltage response is obtained for non-linear load:
 <img width="583" height="455" alt="ex_nl_load" src="https://github.com/user-attachments/assets/5375d155-e15d-4447-8346-7371ad84f182" />
 
 Note how the steady-state output voltage perfectly follows the reference for linear load and can reject disturbances caused by the nonlinear load, depending on the number of modes considered. The transient response, however, is related with the smallest pole constraint specified in the design.
