@@ -7,7 +7,7 @@ Only the following specifications are required:
 - Damping factor of the resonant modes (xi)
 - The desired real part of the smallest pole of the closed-loop system (s)
 
-Consider the example of a design with h = 3, xi = 0, s = 100. The following output voltage response is obtained for linear load:
+Consider an example with h = 3, xi = 0, s = 100. The following output voltage response is obtained for linear load:
 <img width="583" height="455" alt="ex_load" src="https://github.com/user-attachments/assets/0a0fd682-867b-4029-8eee-4bec5cfac51d" />
 
 The following output voltage response is obtained for non-linear load:
